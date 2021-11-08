@@ -6,7 +6,7 @@ import time
 from . import util, html
 from subprocess import Popen, PIPE
 
-import wandb
+#import wandb
 
 if sys.version_info[0] == 2:
     VisdomExceptionBase = Exception
